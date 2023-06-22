@@ -8,7 +8,7 @@ from loader import dp
 async def bot_start(message: types.Message):
     await message.answer(f"Assalomu alaykum, {message.from_user.full_name}!")
 
-from pyrogram import Client, Filters, StopPropagation, InlineKeyboardButton, InlineKeyboardMarkup
+# from pyrogram import Client, Filters, StopPropagation, InlineKeyboardButton, InlineKeyboardMarkup
 # from pyrogram import Client,filters,StopPropagation
 # from aiogram.types import InlineKeyboardButton,InlineKeyboardMarkup
 

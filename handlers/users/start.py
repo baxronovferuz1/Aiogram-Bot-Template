@@ -6,8 +6,7 @@ from loader import dp
 
 @dp.message_handler(CommandStart())
 async def bot_start(message: types.Message):
-    await message.answer(f"Assalomu alaykum, {message.from_user.full_name}!")
-
+    await message.answer(f"🔥Assalomu alaykum, {message.from_user.full_name}, @save_insta_utube_bot botga xush kelipsiz.Bot orqali quyidagilarni yuklab olishingiz mumkin: \n \n •Instagram funksiyasi: video,photo,carousel postlar \n \n •YouTube funksiyasi:videoni audio formatda qaytaradi \n \n 🚀 Media yuklashni boshlash uchun uning havolasini yuboring. \n 😎 Bot guruhlarda ham ishlay oladi! \n \n Aloqa uchun:@Baxronov_Feruz")
 # from pyrogram import Client, Filters, StopPropagation, InlineKeyboardButton, InlineKeyboardMarkup
 # from pyrogram import Client,filters,StopPropagation
 # from aiogram.types import InlineKeyboardButton,InlineKeyboardMarkup

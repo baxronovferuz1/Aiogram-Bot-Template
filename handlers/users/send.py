@@ -18,3 +18,5 @@ async def send_media(message:types.Message):
                 await message.answer_document(document=i)
         else:
             await message.answer("Bu url orqali hech narsa topilmadi!")
+
+
